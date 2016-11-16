@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../static/css/App.css">
+    <script src="{{ url_for('static', filename='bower_components/jquery/dist/jquery.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='bower_components/bootstrap/dist/js/bootstrap.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='bower_components/react/react.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='bower_components/react/react-dom.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='bower_components/react-draggable/dist/react-draggable.js') }}"></script>
+    <script src="{{ url_for('static', filename='bower_components/babel/browser.min.js') }}"></script>
+      <title>Note</title>
+  </head>
+  <body>
+{#  <div id="note_container"></div>#}
+{#    <script type="text/jsx" src="../static/script/jsx/noteBoard.js"></script>#}
+
+    <div id="react-container"></div>
+    <script type="text/babel" src="../static/script/jsx/noteBoard.js"></script>
+
+  </body>
+
+</html>

@@ -1,0 +1,27 @@
+{
+  "name": "showcase",
+  "authors": [
+    "Panda"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "./static/bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.6",
+    "react": "^15.1.0",
+    "react-draggable": "^2.2.2"
+  },
+  "devDependencies": {
+    "bowser": "browser#^1.4.6",
+    "babel": "^5.8.38"
+  }
+}

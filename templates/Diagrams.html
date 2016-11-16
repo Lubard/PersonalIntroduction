@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+
+    <title>Category Performance</title>
+    <script type="text/javascript" src="../static/D3/d3.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../static/css/style.css?version=3">
+    <script src="{{ url_for('static', filename='bower_components/jquery/dist/jquery.min.js') }}"></script>
+    <script type="text/javascript" src="../static/script/js/categoryPerformance.js?version=2"></script>
+
+</head>
+<body>
+    <div class="mainheading">
+        <label> performance by category</label>
+        <br>
+        <!--<label>live feed</label>-->
+    </div>
+    <div id="canvas" class="Aligner"/>
+
+    <div class="legendtags">
+        <label><br>Size of circle: Number of Closed Questions <br>Color of circle: Number of Forecasts per Question<br></label>
+    </div>
+    <form>
+
+        <div id="tooltip">
+            Measure:
+            <a href="">
+                <!--<button id="button" ><i class="fa fa-question-circle"></i></button>-->
+                <i id="button" class="fa fa-question-circle"></i>
+                <span>
+                    <b>Accuracy:</b> <br>
+                    The percentage of questions in the category where the crowd forecast was on the correct side of 50%.
+                    <br><br>
+
+                    <b>Brier Score:</b> <br>
+                    A measure of the ‘error’ in a forecast that ranges between 0 and 2. A lower Brier Score is better; perfect forecasts have a Brier Score of 0, while forecasts that are no better than a random guess will have a Brier score of 0.5.
+                </span>
+            </a>
+
+        </div>
+                <div>
+            <!--<label>Measure:</label> <br>-->
+            <label><input name="x" type="radio" value="Accuracy" checked/>Accuracy</label> <br>
+            <label><input name="x" type="radio" value="Brier"/>Brier Score</label>
+        </div>
+        <div>
+            <!--<label>Grouping:</label>-->
+            <!--<label><input name="y" type="radio" value="Category" checked/>Category</label>-->
+        </div>
+    </form>
+</body>
+</html>
