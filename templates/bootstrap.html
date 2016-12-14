@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Showcase</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='bower_components/bootstrap/dist/css/bootstrap.min.css') }}">
+    <link rel="stylesheet" href="../static/css/style.css?version=3">
+    <script src="{{ url_for('static', filename='bower_components/jquery/dist/jquery.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='bower_components/bootstrap/dist/js/bootstrap.js') }}"></script>
+</head>
+<body>
+{#tags: mark, abbr, s, i, blockquote (and footer), code, kbd, pre (and class="pre-scrollable"), var, samp #}
+    <header class="bgimage">
+        <div class="container">
+            <h1> Welcome </h1>
+        </div>
+    </header>
+
+    <div class="introduction container-fluid">
+        <div class="row">
+            <section class="col-md-4">
+                <h1> Part1 </h1>
+                <p>
+                    <abbr title="I Don't Know Her">this </abbr> is a test
+                </p>
+            </section>
+            <section class="col-md-4">
+                <h1> Part2 </h1>
+                <p>
+                    <s>this is a test</s>
+                </p>
+            </section>
+            <section class="col-md-4">
+                <h1> Part3 </h1>
+                <p>
+                    this <mark>is</mark> a test
+                </p>
+            </section>
+        </div>
+
+    </div>
+
+</body>
+
+</html>

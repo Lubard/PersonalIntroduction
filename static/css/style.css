@@ -264,3 +264,14 @@
             margin-right: 3%;
             padding: 0.5em 0;
         }
+
+        .bgimage{
+            color: white;
+            background-image: url('../images/Cesar Domboy.jpg');
+            background-position: center center;
+            background-size: cover;
+            height: 200px;
+        }
+        .introduction section{
+            text-align: center;
+        }

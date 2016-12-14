@@ -9,7 +9,7 @@ application = Flask(__name__)
 
 @application.route("/")
 def main():
-    return render_template('index.html')
+    return render_template('bootstrap.html')
 
 @application.route("/CategoryPerformance")
 def CategoryPerformance():

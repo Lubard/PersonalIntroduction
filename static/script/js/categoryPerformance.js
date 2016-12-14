@@ -1,5 +1,3 @@
- //<label><input name="y" type="radio" value="Collection"/>Collection</label>
-
 
         var category;
         var categories;
