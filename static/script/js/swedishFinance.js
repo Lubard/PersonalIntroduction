@@ -2,7 +2,7 @@
  * Created by William on 01/11/16.
  */
     d3.csv("swedish", function (err, data) {
-        chartData = [{
+        swedishFinanceData = [{
             "key": "Price_level",
             "bar": "true",
             "values": []
@@ -13,9 +13,9 @@
 
         data.forEach(function (d) {
             temp = [parseInt(d.Period), parseInt(d.Price_level.replace(",", ""))];
-            chartData[0].values.push(temp);
+            swedishFinanceData[0].values.push(temp);
             temp = [parseInt(d.Period), parseFloat(d.Inflation)];
-            chartData[1].values.push(temp);
+            swedishFinanceData[1].values.push(temp);
         });
 
         nv.addGraph(function () {
@@ -41,9 +41,10 @@
                     });
 
             d3.select('#swedish svg')
-                    .datum(chartData)
+                    .datum(swedishFinanceData)
                     .transition().duration(500)
                     .call(chart);
+
             nv.utils.windowResize(chart.update);
             return chart;
         });

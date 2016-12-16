@@ -1,23 +1,6 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <meta charset="utf-8">
-    <title>Geolocation Features</title>
-    <script type="text/javascript" src="../static/D3/d3.js"></script>
-    <script type="text/javascript" src="../static/D3/nv.d3.js"></script>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="../static/css/nv.d3.css">
-    <link rel="stylesheet" href="../static/css/note.css">
-    <script src="{{ url_for('static', filename='bower_components/jquery/dist/jquery.min.js') }}"></script>
-</head>
-
-<body>
-<h1>Geolocation Features from Twitter</h1>
-<div id="geolocation">
-    <svg></svg>
-</div>
-
-<script type="text/javascript">
+/**
+ * Created by William on 16/12/16.
+ */
     d3.csv("geolocationData", function (err, data) {
         chartData = [];
         dict = {"Boston": [], "SanDiego": [], "Washington": [], "Seattle": [], "Houston": []};
@@ -76,9 +59,3 @@
             return chart;
         });
     });
-
-
-</script>
-
-</body>
-</html>

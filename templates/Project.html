@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>About Me</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='bower_components/bootstrap/dist/css/bootstrap.min.css') }}">
+    <link rel="stylesheet" href="../static/css/style.css">
+    <link rel="stylesheet" href="../static/css/nv.d3.css">
+{#    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">#}
+
+    <script src="{{ url_for('static', filename='bower_components/jquery/dist/jquery.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='bower_components/bootstrap/dist/js/bootstrap.js') }}"></script>
+
+    <script type="text/javascript" src="../static/D3/d3.js"></script>
+    <script type="text/javascript" src="../static/D3/nv.d3.js"></script>
+
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button"
+                    class="navbar-toggle collapsed"
+                    data-toggle="collapse"
+                    data-target="#collapsemenu"
+                    aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a href="/" class="navbar-brand">
+                    Hey I Just Met You
+                </a>
+            </div>
+        <div class="collapse navbar-collapse" id="collapsemenu">
+            <ul class="nav navbar-nav">
+                <li><a href="/Project">Project</a></li>
+                <li><a href="/AboutMe">About Me</a></li>
+            </ul>
+        </div>
+        </div>
+    </nav>
+
+    <div class="jumbotron">
+        <div class="container">
+            <h2>Projects</h2>
+            <p>Basically something I think fun</p>
+        </div>
+    </div> <!-- jumbotron of the main introduction-->
+
+
+
+    <div class="content container">
+      <div class="row">
+          <section class="col-sm-12 col-md-offset-4">
+              <ul class="nav nav-pills" role="tablist">
+                  <li role="presentation"><a role="tab" data-toggle="tab" href="#JS">Java Script</a></li>
+                  <li role="presentation"><a role="tab" data-toggle="tab" href="#React">React</a></li>
+                  <li role="presentation"><a role="tab" data-toggle="tab" href="#ML">Machine Learning</a></li>
+              </ul>
+          </section>
+
+          <section class="col-md-12 col-md-offset-4">
+              <div class="tab-content">
+                  <ul class="tab-pane nav nav-pills" role="tablist" id="JS">
+                      <li role="presentation"><a role="tab" data-toggle="tab" href="#D3">D3 Diagram</a></li>
+                      <li role="presentation"><a role="tab" href="/QuestionMap">Question Map</a></li>
+                  </ul>
+                  <ul class="tab-pane nav nav-pills" role="tablist" id="ML">
+                      <li role="presentation"><a role="tab" data-toggle="tab" href="#Geolocation">Geolocation</a></li>
+                      <li role="presentation"><a role="tab" data-toggle="tab" href="#Inflation">Swedish Inflation</a></li>
+                  </ul>
+                  <ul class="tab-pane nav nav-pills" role="tablist" id="React">
+                      <li role="presentation"><a role="tab" href="/Note">Note</a></li>
+                  </ul>
+
+              </div>
+          </section>
+        </div> <!-- Row-->
+    </div> <!-- Container-->
+
+    <div class="container">
+        <section class="col-md-12">
+            <div class="tab-content">
+
+                <div class="tab-pane" role="tabpanel" id="Inflation">
+                    <script type="text/javascript" src="../static/script/js/swedishFinance.js"></script>
+                    <h1>Price Level and inflation Sweden 1908-2001</h1>
+                    <div id="swedish">
+                        <svg></svg>
+                    </div>
+                </div><!-- tab-pane Inflation -->
+
+                <div class="tab-pane" role="tabpanel" id="Geolocation">
+
+                    <h1>Geolocation Features from Twitter</h1>
+                    <div id="geolocation">
+                        <svg></svg>
+                    </div>
+                    <script type="text/javascript" src="../static/script/js/geolocationFeatures.js"> </script>
+                </div> <!-- tab-pane Geolocation -->
+
+                <div class="tab-pane" role="tabpanel" id="D3">
+                    <script type="text/javascript" src="../static/script/js/categoryPerformance.js"></script>
+
+                    <div class="mainheading">
+                        <label> performance by category</label>
+                        <br>
+                        <!--<label>live feed</label>-->
+                    </div>
+                    <div id="canvas" class="Aligner"></div>
+                    <div class="legendtags">
+                        <label><br>Size of circle: Number of Closed Questions <br>Color of circle: Number of Forecasts per Question<br></label>
+                    </div>
+                    <form>
+                        <div id="tooltip">
+                            Measure:
+                            <a href="">
+                                <!--<button id="button" ><i class="fa fa-question-circle"></i></button>-->
+                                <i id="button" class="fa fa-question-circle"></i>
+                                <span>
+                                    <b>Accuracy:</b> <br>
+                                    The percentage of questions in the category where the crowd forecast was on the correct side of 50%.
+                                    <br><br>
+
+                                    <b>Brier Score:</b> <br>
+                                    A measure of the ‘error’ in a forecast that ranges between 0 and 2. A lower Brier Score is better; perfect forecasts have a Brier Score of 0, while forecasts that are no better than a random guess will have a Brier score of 0.5.
+                                </span>
+                            </a>
+                            <label><input name="x" type="radio" value="Accuracy" checked/>Accuracy</label> <br>
+                            <label><input name="x" type="radio" value="Brier"/>Brier Score</label>
+                        </div>
+                    </form>
+                </div> <!-- tab-pane D3 -->
+
+
+
+            </div> <!-- tab-content -->
+
+        </section>
+    </div>
+
+</body>
+</html>

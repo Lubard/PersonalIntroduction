@@ -71,14 +71,6 @@
         }
 
 
-        .logo path,
-        .logo{
-            position: absolute;
-            width: 200px;
-            height: 100px;
-            margin-top:0%;
-            margin-left:0%;
-        }
         .yaxis path,
         .yaxis line {
             fill: none;
@@ -270,8 +262,25 @@
             background-image: url('../images/Cesar Domboy.jpg');
             background-position: center center;
             background-size: cover;
-            height: 200px;
+            height: 500px;
         }
         .introduction section{
             text-align: center;
+        }
+
+        .introduction section img{
+            height: 500px;
+        }
+        .carousel .carousel-inner img{
+            height: 500px;
+            margin:0 auto;
+        }
+
+        #geolocation .nvd3-svg {
+          width: 1400px;
+          height: 800px;
+        }
+        #swedish .nvd3-svg {
+          width: 800px;
+          height: 300px;
         }

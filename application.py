@@ -11,9 +11,13 @@ application = Flask(__name__)
 def main():
     return render_template('bootstrap.html')
 
-@application.route("/CategoryPerformance")
-def CategoryPerformance():
-    return render_template('Diagrams.html')
+@application.route("/AboutMe")
+def AboutMe():
+    return render_template('AboutMe.html')
+
+@application.route("/Project")
+def Project():
+    return render_template('Project.html')
 
 
 @application.route("/QuestionMap")
@@ -23,15 +27,6 @@ def QuestionMap():
 @application.route("/Note")
 def ReactNote():
     return  render_template("Note.html")
-
-
-@application.route("/Swedish")
-def Swedish():
-    return  render_template("Interestrate and inflation Sweden 1908-2001.html")
-
-@application.route("/Geolocation")
-def Geolocation():
-    return  render_template("GeolocationFeatures.html")
 
 @application.route("/categoryData", methods = ['GET'])
 def categoryData():

@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>About Me</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='bower_components/bootstrap/dist/css/bootstrap.min.css') }}">
+    <link rel="stylesheet" href="../static/css/style.css?version=3">
+    <script src="{{ url_for('static', filename='bower_components/jquery/dist/jquery.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='bower_components/bootstrap/dist/js/bootstrap.js') }}"></script>
+    <link rel="stylesheet" href="../static/css/nv.d3.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button"
+                    class="navbar-toggle collapsed"
+                    data-toggle="collapse"
+                    data-target="#collapsemenu"
+                    aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a href="/" class="navbar-brand">
+                    Hey I Just Met You
+                </a>
+            </div>
+        <div class="collapse navbar-collapse" id="collapsemenu">
+            <ul class="nav navbar-nav">
+                <li><a href="/Project">Project</a></li>
+                <li><a href="/AboutMe">About Me</a></li>
+            </ul>
+        </div>
+        </div>
+    </nav>
+
+    <div class="jumbotron">
+        <div class="container">
+            <h2>Our Mission</h2>
+            <p> I Don't Know!</p>
+        </div>
+    </div> <!-- jumbotron of the main introduction-->
+
+    <div class="content container">
+      <div class="row">
+          <section class="col-md-6 col-sm-push-3">
+            <div class="carousel slide" id="featured">
+                <div class="carousel-inner">
+                    <div class="item active">
+                        <img src="../static/images/Cesar%20Domboy.jpg" alt="Cesar Domboy">
+                    </div>
+                    <div class="item">
+                        <img src="../static/images/How%20is%202016.jpg" alt="Tylor Swift">
+                    </div>
+                    <div class="item">
+                        <img src="../static/images/Giovanni.jpg" alt="Gio">
+                    </div>
+                </div><!-- carousel-inner -->
+                <a href="#featured" class="left carousel-control"
+                    role="button" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                </a>
+
+                <a href="#featured" class="right carousel-control"
+                    role="button" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                </a>
+            </div> <!-- carousel-->
+          </section>
+      </div>
+    </div> <!-- carousel of the pics-->
+
+    <div class="content container">
+      <div class="row">
+          <section class="col-sm-12 col-md-offset-4">
+              <ul class="nav nav-pills" role="tablist">
+                  <li role="presentation"><a role="tab" data-toggle="tab" href="#temp1">temp1</a></li>
+                  <li role="presentation"><a role="tab" data-toggle="tab" href="#temp2">temp2</a></li>
+                  <li role="presentation"><a role="tab" data-toggle="tab" href="#temp3">temp3</a></li>
+              </ul>
+          </section>
+          <section class="col-md-12">
+              <div class="tab-content">
+                  <div class="tab-pane" role="tabpanel" id="temp1">
+                        <script type="text/javascript" src="../static/D3/d3.js"></script>
+                        <script type="text/javascript" src="../static/D3/nv.d3.js"></script>
+                        <h1>Geolocation Features from Twitter</h1>
+                        <div id="geolocation">
+                            <svg></svg>
+                        </div>
+                        <script type="text/javascript" src="../static/script/js/geolocationFeatures.js"> </script>
+                  </div>
+                  <div class="tab-pane" role="tabpanel" id="temp2">
+                      <h3>Grooming</h3>
+                      <p>Our therapeutic grooming treatments help battle fleas, allergic dermatitis, and other challenging skin conditions.</p>
+                  </div>
+                  <div class="tab-pane" role="tabpanel" id="temp3">
+                      <h3>General Health</h3>
+                      <p>Wellness and senior exams, ultrasound, x-ray, and dental cleanings are just a few of our general health services.</p>
+                  </div>
+              </div>
+          </section>
+
+      </div><!-- row -->
+    </div><!-- content container --> <!-- tabs! -->
+
+</body>
+</html>
