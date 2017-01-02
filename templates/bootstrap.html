@@ -5,8 +5,9 @@
     <title>Showcase</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='bower_components/bootstrap/dist/css/bootstrap.min.css') }}">
     <link rel="stylesheet" href="../static/css/style.css?version=3">
-    <script src="{{ url_for('static', filename='bower_components/jquery/dist/jquery.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='bower_components/jquery/jquery.min.js') }}"></script>
     <script src="{{ url_for('static', filename='bower_components/bootstrap/dist/js/bootstrap.js') }}"></script>
+    <script src="{{ url_for('static', filename='bower_components/flip/dist/jquery.flip.js') }}"></script>
 </head>
 <body>
 {#tags: mark, abbr, s, i, blockquote (and footer), code, kbd, pre (and class="pre-scrollable"), var, samp #}
@@ -63,13 +64,19 @@
 {#    </div>#}
 </div>  <!-- hidding the dropdown-->
 
-    <div class="introduction container-fluid">
+    <div class="introduction container-fluid" id="flipPages">
         <div class="row">
             <section class="col-md-4">
                 <img src="../static/images/Panda%20Angry.JPG"
                      class="img-responsive center-block"
                      alt="Part1">
-                <a href="/Project">Project</a>
+                <div class="item-hover">
+					<div class="item-meta">
+						<h2 class="item-title">Caffe Demetre</h2>
+						<h3 class="hvr-subtitle">Illustration, Photography, Print</h3>
+					</div>
+				</div>
+{#                <a href="/Project">Project</a>#}
             </section>
             <section class="col-md-4">
                 <img src="../static/images/Panda%20Lonely.JPG"
