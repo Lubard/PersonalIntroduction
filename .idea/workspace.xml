@@ -1,130 +1,165 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="40c43edd-bfc2-4f8a-b015-f4e1b9957262" name="Default" comment="Updating">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/script/js/flipPage.js" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/jquery/LICENSE.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/jquery/dist/core.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/jquery/dist/jquery.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/jquery/dist/jquery.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/jquery/dist/jquery.min.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/jquery/dist/jquery.slim.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/jquery/dist/jquery.slim.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/jquery/dist/jquery.slim.min.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/jquery/external/sizzle/LICENSE.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/jquery/external/sizzle/dist/sizzle.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/jquery/external/sizzle/dist/sizzle.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/jquery/external/sizzle/dist/sizzle.min.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/jquery/src/.eslintrc.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/jquery/src/ajax/load.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/jquery/src/ajax/parseXML.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/jquery/src/ajax/var/location.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/jquery/src/ajax/var/nonce.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/jquery/src/ajax/var/rquery.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/jquery/src/attributes/attr.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/jquery/src/attributes/classes.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/jquery/src/attributes/prop.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/jquery/src/attributes/support.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/jquery/src/attributes/val.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/jquery/src/core/DOMEval.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/jquery/src/core/access.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/jquery/src/core/init.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/jquery/src/core/parseHTML.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/jquery/src/core/ready-no-deferred.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/jquery/src/core/ready.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/jquery/src/core/readyException.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/jquery/src/core/stripAndCollapse.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/jquery/src/core/support.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/jquery/src/core/var/rsingleTag.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/jquery/src/css/addGetHookIf.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/jquery/src/css/adjustCSS.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/jquery/src/css/curCSS.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/jquery/src/css/hiddenVisibleSelectors.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/jquery/src/css/showHide.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/jquery/src/css/support.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/jquery/src/css/var/cssExpand.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/jquery/src/css/var/getStyles.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/jquery/src/css/var/isHiddenWithinTree.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/jquery/src/css/var/rmargin.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/jquery/src/css/var/rnumnonpx.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/jquery/src/css/var/swap.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/jquery/src/data/Data.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/jquery/src/data/var/acceptData.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/jquery/src/data/var/dataPriv.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/jquery/src/data/var/dataUser.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/jquery/src/deferred/exceptionHook.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/jquery/src/effects/Tween.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/jquery/src/effects/animatedSelector.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/jquery/src/event/ajax.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/jquery/src/event/alias.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/jquery/src/event/focusin.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/jquery/src/event/support.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/jquery/src/event/trigger.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/jquery/src/exports/amd.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/jquery/src/exports/global.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/jquery/src/jquery.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/jquery/src/manipulation/_evalUrl.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/jquery/src/manipulation/buildFragment.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/jquery/src/manipulation/getAll.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/jquery/src/manipulation/setGlobalEval.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/jquery/src/manipulation/support.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/jquery/src/manipulation/var/rcheckableType.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/jquery/src/manipulation/var/rscriptType.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/jquery/src/manipulation/var/rtagName.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/jquery/src/manipulation/wrapMap.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/jquery/src/queue/delay.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/jquery/src/selector-sizzle.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/jquery/src/selector.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/jquery/src/traversing/findFilter.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/jquery/src/traversing/var/dir.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/jquery/src/traversing/var/rneedsContext.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/jquery/src/traversing/var/siblings.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/jquery/src/var/ObjectFunctionString.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/jquery/src/var/arr.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/jquery/src/var/class2type.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/jquery/src/var/concat.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/jquery/src/var/document.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/jquery/src/var/documentElement.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/jquery/src/var/fnToString.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/jquery/src/var/getProto.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/jquery/src/var/hasOwn.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/jquery/src/var/indexOf.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/jquery/src/var/pnum.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/jquery/src/var/push.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/jquery/src/var/rcssNum.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/jquery/src/var/rnothtmlwhite.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/jquery/src/var/slice.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/jquery/src/var/support.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/bower_components/jquery/src/var/toString.js" afterPath="" />
+    <list default="true" id="40c43edd-bfc2-4f8a-b015-f4e1b9957262" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/bower_components/jquery/test/data/1x1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/Giovanni.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/How is 2016.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/Panda Angry.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/Panda Lonely.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/Panda On the Tree.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/bower_components/flip/.bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/bower_components/flip/.bowerrc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/bower_components/flip/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/bower_components/flip/.jshintrc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/bower_components/flip/.travis.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/bower_components/flip/CONTRIBUTING.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/bower_components/flip/Gruntfile.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/bower_components/flip/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/bower_components/flip/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/bower_components/flip/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/bower_components/flip/demo/flip-with-swipebox/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/bower_components/flip/demo/flip-with-swipebox/style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/bower_components/flip/demo/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/bower_components/flip/demo/index2.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/bower_components/flip/dist/jquery.flip.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/bower_components/flip/dist/jquery.flip.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/bower_components/flip/dist/jquery.flip.min.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/bower_components/flip/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/bower_components/flip/src/flip.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/bower_components/jquery/.editorconfig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/bower_components/jquery/.gitattributes" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/bower_components/jquery/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/bower_components/jquery/.gitmodules" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/bower_components/jquery/.jshintrc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/bower_components/jquery/.mailmap" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/bower_components/jquery/CONTRIBUTING.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/bower_components/jquery/Gruntfile.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/bower_components/jquery/MIT-LICENSE.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/bower_components/jquery/build/release-notes.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/bower_components/jquery/build/release.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/bower_components/jquery/component.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/bower_components/jquery/composer.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/bower_components/jquery/jquery-migrate.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/bower_components/jquery/jquery-migrate.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/bower_components/jquery/jquery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/bower_components/jquery/jquery.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/bower_components/jquery/jquery.min.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/bower_components/jquery/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/bower_components/jquery/speed/benchmark.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/bower_components/jquery/speed/benchmarker.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/bower_components/jquery/speed/benchmarker.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/bower_components/jquery/speed/closest.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/bower_components/jquery/speed/css.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/bower_components/jquery/speed/event.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/bower_components/jquery/speed/filter.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/bower_components/jquery/speed/find.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/bower_components/jquery/speed/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/bower_components/jquery/speed/jquery-basis.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/bower_components/jquery/speed/slice.vs.concat.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/bower_components/jquery/src/.jshintrc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/bower_components/jquery/src/event-alias.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/bower_components/jquery/src/exports.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/bower_components/jquery/src/intro.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/bower_components/jquery/src/outro.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/bower_components/jquery/src/sizzle-jquery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/bower_components/jquery/src/support.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/bower_components/jquery/test/.jshintignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/bower_components/jquery/test/.jshintrc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/bower_components/jquery/test/data/ajax/unreleasedXHR.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/bower_components/jquery/test/data/atom+xml.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/bower_components/jquery/test/data/badcall.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/bower_components/jquery/test/data/badjson.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/bower_components/jquery/test/data/cleanScript.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/bower_components/jquery/test/data/core/cc_on.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/bower_components/jquery/test/data/core/dont_return.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/bower_components/jquery/test/data/core/dynamic_ready.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/bower_components/jquery/test/data/dashboard.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/bower_components/jquery/test/data/dimensions/documentLarge.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/bower_components/jquery/test/data/dimensions/documentSmall.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/bower_components/jquery/test/data/echoData.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/bower_components/jquery/test/data/echoQuery.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/bower_components/jquery/test/data/errorWithJSON.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/bower_components/jquery/test/data/errorWithText.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/bower_components/jquery/test/data/etag.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/bower_components/jquery/test/data/evalScript.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/bower_components/jquery/test/data/event/focusElem.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/bower_components/jquery/test/data/event/longLoadScript.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/bower_components/jquery/test/data/event/onbeforeunload.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/bower_components/jquery/test/data/event/promiseReady.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/bower_components/jquery/test/data/event/syncReady.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/bower_components/jquery/test/data/headers.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/bower_components/jquery/test/data/if_modified_since.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/bower_components/jquery/test/data/iframe.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/bower_components/jquery/test/data/jquery-1.9.1.ajax_xhr.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/bower_components/jquery/test/data/json.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/bower_components/jquery/test/data/json_obj.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/bower_components/jquery/test/data/jsonp.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/bower_components/jquery/test/data/manipulation/iframe-denied.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/bower_components/jquery/test/data/name.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/bower_components/jquery/test/data/name.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/bower_components/jquery/test/data/nocontent.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/bower_components/jquery/test/data/offset/absolute.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/bower_components/jquery/test/data/offset/body.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/bower_components/jquery/test/data/offset/fixed.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/bower_components/jquery/test/data/offset/relative.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/bower_components/jquery/test/data/offset/scroll.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/bower_components/jquery/test/data/offset/static.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/bower_components/jquery/test/data/offset/table.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/bower_components/jquery/test/data/params_html.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/bower_components/jquery/test/data/readywaitasset.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/bower_components/jquery/test/data/readywaitloader.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/bower_components/jquery/test/data/script.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/bower_components/jquery/test/data/selector/html5_selector.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/bower_components/jquery/test/data/selector/sizzle_cache.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/bower_components/jquery/test/data/statusText.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/bower_components/jquery/test/data/support/bodyBackground.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/bower_components/jquery/test/data/support/boxSizing.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/bower_components/jquery/test/data/support/csp.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/bower_components/jquery/test/data/support/csp.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/bower_components/jquery/test/data/support/shrinkWrapBlocks.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/bower_components/jquery/test/data/support/testElementCrash.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/bower_components/jquery/test/data/test.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/bower_components/jquery/test/data/test.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/bower_components/jquery/test/data/test.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/bower_components/jquery/test/data/test2.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/bower_components/jquery/test/data/test3.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/bower_components/jquery/test/data/testinit.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/bower_components/jquery/test/data/testrunner.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/bower_components/jquery/test/data/testsuite.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/bower_components/jquery/test/data/text.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/bower_components/jquery/test/data/ua.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/bower_components/jquery/test/data/with_fries.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/bower_components/jquery/test/data/with_fries_over_jsonp.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/bower_components/jquery/test/delegatetest.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/bower_components/jquery/test/hovertest.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/bower_components/jquery/test/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/bower_components/jquery/test/jquery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/bower_components/jquery/test/localfile.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/bower_components/jquery/test/networkerror.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/bower_components/jquery/test/readywait.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/bower_components/jquery/test/unit/ajax.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/bower_components/jquery/test/unit/attributes.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/bower_components/jquery/test/unit/callbacks.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/bower_components/jquery/test/unit/core.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/bower_components/jquery/test/unit/css.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/bower_components/jquery/test/unit/data.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/bower_components/jquery/test/unit/deferred.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/bower_components/jquery/test/unit/deprecated.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/bower_components/jquery/test/unit/dimensions.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/bower_components/jquery/test/unit/effects.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/bower_components/jquery/test/unit/event.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/bower_components/jquery/test/unit/exports.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/bower_components/jquery/test/unit/manipulation.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/bower_components/jquery/test/unit/offset.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/bower_components/jquery/test/unit/queue.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/bower_components/jquery/test/unit/selector.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/bower_components/jquery/test/unit/serialize.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/bower_components/jquery/test/unit/support.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/bower_components/jquery/test/unit/traversing.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/bower_components/jquery/test/unit/wrap.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/bower_components/jquery/test/xhtml.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/bower_components/jquery/.bower.json" afterPath="$PROJECT_DIR$/static/bower_components/jquery/.bower.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/bower_components/jquery/AUTHORS.txt" afterPath="$PROJECT_DIR$/static/bower_components/jquery/AUTHORS.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/bower_components/jquery/README.md" afterPath="$PROJECT_DIR$/static/bower_components/jquery/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/bower_components/jquery/bower.json" afterPath="$PROJECT_DIR$/static/bower_components/jquery/bower.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/bower_components/jquery/src/ajax.js" afterPath="$PROJECT_DIR$/static/bower_components/jquery/src/ajax.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/bower_components/jquery/src/ajax/jsonp.js" afterPath="$PROJECT_DIR$/static/bower_components/jquery/src/ajax/jsonp.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/bower_components/jquery/src/ajax/script.js" afterPath="$PROJECT_DIR$/static/bower_components/jquery/src/ajax/script.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/bower_components/jquery/src/ajax/xhr.js" afterPath="$PROJECT_DIR$/static/bower_components/jquery/src/ajax/xhr.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/bower_components/jquery/src/attributes.js" afterPath="$PROJECT_DIR$/static/bower_components/jquery/src/attributes.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/bower_components/jquery/src/callbacks.js" afterPath="$PROJECT_DIR$/static/bower_components/jquery/src/callbacks.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/bower_components/jquery/src/core.js" afterPath="$PROJECT_DIR$/static/bower_components/jquery/src/core.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/bower_components/jquery/src/css.js" afterPath="$PROJECT_DIR$/static/bower_components/jquery/src/css.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/bower_components/jquery/src/data.js" afterPath="$PROJECT_DIR$/static/bower_components/jquery/src/data.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/bower_components/jquery/src/deferred.js" afterPath="$PROJECT_DIR$/static/bower_components/jquery/src/deferred.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/bower_components/jquery/src/deprecated.js" afterPath="$PROJECT_DIR$/static/bower_components/jquery/src/deprecated.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/bower_components/jquery/src/dimensions.js" afterPath="$PROJECT_DIR$/static/bower_components/jquery/src/dimensions.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/bower_components/jquery/src/effects.js" afterPath="$PROJECT_DIR$/static/bower_components/jquery/src/effects.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/bower_components/jquery/src/event.js" afterPath="$PROJECT_DIR$/static/bower_components/jquery/src/event.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/bower_components/jquery/src/manipulation.js" afterPath="$PROJECT_DIR$/static/bower_components/jquery/src/manipulation.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/bower_components/jquery/src/offset.js" afterPath="$PROJECT_DIR$/static/bower_components/jquery/src/offset.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/bower_components/jquery/src/queue.js" afterPath="$PROJECT_DIR$/static/bower_components/jquery/src/queue.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/bower_components/jquery/src/selector-native.js" afterPath="$PROJECT_DIR$/static/bower_components/jquery/src/selector-native.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/bower_components/jquery/src/serialize.js" afterPath="$PROJECT_DIR$/static/bower_components/jquery/src/serialize.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/bower_components/jquery/src/traversing.js" afterPath="$PROJECT_DIR$/static/bower_components/jquery/src/traversing.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/bower_components/jquery/src/wrap.js" afterPath="$PROJECT_DIR$/static/bower_components/jquery/src/wrap.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/css/style.css" afterPath="$PROJECT_DIR$/static/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/Project.html" afterPath="$PROJECT_DIR$/templates/Project.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/bootstrap.html" afterPath="$PROJECT_DIR$/templates/bootstrap.html" />
     </list>
     <ignored path="showcase.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -363,6 +398,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="showcase" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="showcase" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="images" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -687,7 +740,14 @@
       <option name="project" value="LOCAL" />
       <updated>1481876157263</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Updating">
+      <created>1483398289680</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1483398289680</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TodoView" selected-index="4">
@@ -703,8 +763,8 @@
     <frame x="0" y="0" width="1366" height="768" extended-state="0" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23640484" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32855093" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23640484" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3294964" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.44748202" sideWeight="0.5030211" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294964" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
